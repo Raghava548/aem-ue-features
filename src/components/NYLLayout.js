@@ -1,5 +1,7 @@
 import React from 'react';
 import './NYLLayout.scss';
+import nylLogo from '../images/nyl-logo-1.svg';
+import { Link } from 'react-router-dom';
 
 const NYLLayout = ({ children }) => {
   return (
@@ -10,6 +12,11 @@ const NYLLayout = ({ children }) => {
     >
       <div className="nyl-layout__container">
         <div className="nyl-layout__header">
+          <div className="nyl-layout__nav">
+            <Link to="/" className="nyl-layout__logo">
+              <img src={nylLogo} alt="New York Life Logo" />
+            </Link>
+          </div>
           <div 
             className="nyl-layout__header-content"
             data-aue-component="nyHeader"

@@ -28,6 +28,26 @@
     }
   }
 
+  &__nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 16px 40px;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  &__logo {
+    display: block;
+    
+    img {
+      height: 40px;
+      width: auto;
+    }
+  }
+
   &__content {
     width: 1440px;
     margin: 0 auto;
