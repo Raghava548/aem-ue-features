@@ -1,0 +1,36 @@
+@import '../styles/variables';
+
+.nyl-columns {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+  &--gap-small {
+    gap: 20px;
+  }
+
+  &--gap-medium {
+    gap: 40px;
+  }
+
+  &--gap-large {
+    gap: 60px;
+  }
+
+  &--align-top {
+    align-items: start;
+  }
+
+  &--align-center {
+    align-items: center;
+  }
+
+  &--align-bottom {
+    align-items: end;
+  }
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+  }
+}

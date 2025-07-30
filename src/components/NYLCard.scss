@@ -1,0 +1,92 @@
+@import '../styles/variables';
+
+.nyl-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  &__image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    &:hover img {
+      transform: scale(1.05);
+    }
+  }
+
+  &__content {
+    padding: 24px;
+  }
+
+  &__title {
+    color: #333;
+    font-size: 24px;
+    margin: 0 0 16px;
+  }
+
+  &__description {
+    color: #58656D;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 0 24px;
+  }
+
+  &__cta {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007AB3;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: darken(#007AB3, 10%);
+    }
+  }
+
+  // Variants
+  &--featured {
+    background: linear-gradient(135deg, #007AB3, darken(#007AB3, 15%));
+    color: white;
+
+    .nyl-card__title,
+    .nyl-card__description {
+      color: white;
+    }
+
+    .nyl-card__cta {
+      background-color: white;
+      color: #007AB3;
+
+      &:hover {
+        background-color: darken(white, 10%);
+      }
+    }
+  }
+
+  &--outline {
+    box-shadow: none;
+    border: 2px solid #E5E5E5;
+
+    &:hover {
+      border-color: #007AB3;
+    }
+  }
+}
