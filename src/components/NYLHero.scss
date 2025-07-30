@@ -1,0 +1,59 @@
+@import '../styles/variables';
+
+.nyl-hero {
+  position: relative;
+  width: 100%;
+  height: 1012.5px;
+  overflow: hidden;
+
+  &__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &__content {
+    position: relative;
+    z-index: 1;
+    width: 640px;
+    padding: 60px;
+    background-color: white;
+    margin-top: 326px;
+    margin-left: 460px;
+  }
+
+  &__title {
+    color: #58656D;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 24px;
+  }
+
+  &__description {
+    color: #58656D;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 32px;
+  }
+
+  &__cta {
+    display: inline-block;
+    padding: 16px 32px;
+    background-color: #007AB3;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: darken(#007AB3, 10%);
+    }
+  }
+}

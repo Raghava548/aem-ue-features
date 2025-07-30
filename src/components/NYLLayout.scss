@@ -1,0 +1,36 @@
+@import '../styles/variables';
+
+.nyl-layout {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #444444;
+  display: flex;
+  justify-content: center;
+
+  &__container {
+    width: 1920px;
+    background-color: white;
+    margin: 140px;
+  }
+
+  &__header {
+    width: 100%;
+    height: 1012.5px;
+    position: relative;
+
+    &-content {
+      position: absolute;
+      width: 640px;
+      height: 446px;
+      background-color: white;
+      top: 326px;
+      left: 460px;
+    }
+  }
+
+  &__content {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+}

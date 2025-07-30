@@ -1,0 +1,26 @@
+@import '../styles/variables';
+
+.nyl-header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__content {
+    color: #58656D;
+    font-family: Arial, sans-serif;
+    
+    /* These styles match the SVG text styling */
+    h1 {
+      font-size: 24px;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  }
+}
