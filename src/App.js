@@ -9,24 +9,21 @@ it.
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
-import logo from "./images/wknd-icon.svg";
-import Home from "./components/Home";
-import Person from "./components/Person";
+import HomePage from "./components/HomePage";
+import AboutPage from "./components/AboutPage";
 import "./App.scss";
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <header>
-          <Link to={"/"}>
-            <img src={logo} className="logo" alt="WKND Logo" />
-          </Link>
-          <hr />
-        </header>
+        <nav className="App-nav">
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+        </nav>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/person/:fullName" element={<Person />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
         </Routes>
       </div>
     </Router>
