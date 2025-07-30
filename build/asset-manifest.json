@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.2ecf8d6b.css",
-    "main.js": "/static/js/main.ce787940.js",
+    "main.css": "/static/css/main.ba6f3f1a.css",
+    "main.js": "/static/js/main.7896baef.js",
     "static/media/piggyback_ride.png": "/static/media/piggyback_ride.cb5d0183ced9c19f5a4d.png",
     "static/media/nyl-logo-1.svg": "/static/media/nyl-logo-1.91e0154f76e9aac55ec0da0abd40ea37.svg",
+    "static/media/target.svg": "/static/media/target.0cee0d12116d4140cbfaf2ebeac49025.svg",
+    "static/media/heart.svg": "/static/media/heart.c5425759b7b07e8960423b7377cc6edd.svg",
+    "static/media/plant.svg": "/static/media/plant.d32d3c89d06ad3aef4e859d6fe1ea49d.svg",
     "index.html": "/index.html",
-    "main.2ecf8d6b.css.map": "/static/css/main.2ecf8d6b.css.map",
-    "main.ce787940.js.map": "/static/js/main.ce787940.js.map"
+    "main.ba6f3f1a.css.map": "/static/css/main.ba6f3f1a.css.map",
+    "main.7896baef.js.map": "/static/js/main.7896baef.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ecf8d6b.css",
-    "static/js/main.ce787940.js"
+    "static/css/main.ba6f3f1a.css",
+    "static/js/main.7896baef.js"
   ]
 }
