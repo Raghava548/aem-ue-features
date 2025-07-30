@@ -5,6 +5,9 @@ import NYLSection from './NYLSection';
 import NYLColumns from './NYLColumns';
 import NYLCard from './NYLCard';
 import piggybackImage from "../images/piggyback_ride.png";
+import heartIcon from "../images/heart.svg";
+import targetIcon from "../images/target.svg";
+import plantIcon from "../images/plant.svg";
 
 const HomePage = () => {
   return (
@@ -25,7 +28,8 @@ const HomePage = () => {
               cardId="card1"
               title="Life Insurance"
               description="Protect your family's future with our comprehensive life insurance options."
-              image="/path/to/image.jpg"
+              image={heartIcon}
+              imageAlt="Heart icon representing life insurance protection"
               ctaText="Learn More"
               ctaUrl="/insurance"
             />,
@@ -33,7 +37,8 @@ const HomePage = () => {
               cardId="card2"
               title="Investments"
               description="Grow your wealth with our expert investment strategies."
-              image="/path/to/image.jpg"
+              image={targetIcon}
+              imageAlt="Target icon representing investment goals"
               ctaText="Explore Options"
               ctaUrl="/investments"
               variant="featured"
@@ -42,7 +47,8 @@ const HomePage = () => {
               cardId="card3"
               title="Retirement"
               description="Plan for a secure retirement with our retirement solutions."
-              image="/path/to/image.jpg"
+              image={plantIcon}
+              imageAlt="Plant icon representing growth and retirement planning"
               ctaText="Start Planning"
               ctaUrl="/retirement"
               variant="outline"
