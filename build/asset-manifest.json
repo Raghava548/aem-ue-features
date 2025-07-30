@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2ecf8d6b.css",
+    "main.js": "/static/js/main.ce787940.js",
+    "static/media/piggyback_ride.png": "/static/media/piggyback_ride.cb5d0183ced9c19f5a4d.png",
+    "static/media/nyl-logo-1.svg": "/static/media/nyl-logo-1.91e0154f76e9aac55ec0da0abd40ea37.svg",
+    "index.html": "/index.html",
+    "main.2ecf8d6b.css.map": "/static/css/main.2ecf8d6b.css.map",
+    "main.ce787940.js.map": "/static/js/main.ce787940.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ecf8d6b.css",
+    "static/js/main.ce787940.js"
+  ]
+}
